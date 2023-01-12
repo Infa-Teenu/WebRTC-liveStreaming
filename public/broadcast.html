@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Broadcaster</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+<style>
+video{
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+}
+</style>
+       <span id='uniq'></span>
+
+      <section class="select">
+
+      <label for="videoSource">Video source: </label>
+      <select id="videoSource"></select>
+      
+      </section>
+     
+     <br>
+    <video playsinline autoplay></video>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="broadcast.js"></script>
+    
+  </body>
+</html>

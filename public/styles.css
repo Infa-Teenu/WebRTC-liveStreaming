@@ -1,0 +1,12 @@
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+video {
+  width: 700px;
+  height: 500px;
+  transform: rotateY(180deg);
+  -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+  -moz-transform:rotateY(180deg); /* Firefox */
+}
